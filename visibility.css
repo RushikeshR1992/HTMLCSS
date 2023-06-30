@@ -1,0 +1,12 @@
+div{
+    height: 150px;
+    background-color: lightcoral;
+}
+.v1{
+    background-color: thistle;
+    /* visibility: hidden; */
+    display: block;
+}
+.call{
+    visibility: collapse;
+}

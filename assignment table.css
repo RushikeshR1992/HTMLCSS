@@ -1,0 +1,28 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.rollete h3{
+    color: black;
+    text-align: center;
+}
+#r{
+    background-color: red;
+}
+#b{
+    background-color: black;
+}
+.rollete table p{
+    color: white;
+    text-align: center;
+}
+.rollete table{
+    height: auto;
+    box-sizing: border-box;
+    border: solid white;
+    width: 3%;
+    padding: 1%;
+    margin:2% auto;
+}

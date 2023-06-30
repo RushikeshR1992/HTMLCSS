@@ -1,0 +1,331 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 1% solid black;
+}
+ 
+ .main{
+    width: 100%;
+    padding-top: 20px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.font1{
+    color: black;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    padding-left: 100px;
+}
+.font1 a{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color: black;
+  /*   background-color: antiquewhite; */
+}
+.image1{
+    width: 100px;
+    padding-left: 20px;
+}
+.main .image1 img{
+    width: 100%;
+    height: inherit;
+}
+.middle{
+    height: inherit;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    transition: all 1s ease-in-out 0s;      
+    animation-name: disneyimages;
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/mobile----750-x-668_0e8c3d10.png?region=0,0,750,668);
+    margin: 0 auto;
+}
+@keyframes disneyimages{
+    0%{
+        
+        
+    
+    }
+    50%{
+        background-image: url(https://birthdaybook.disney.in/assets/res/layout/img/DJIndia_1894x548.jpg);
+       
+    }
+    100%{
+        background-image: url(https://lumiere-a.akamaihd.net/v1/images/cover-2000-x-835_1_e15da45d.png?region=0,0,2000,835);
+    }
+    
+}
+.product img {
+    height: inherit;   
+}
+.production{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1% 0%;
+
+}
+.production .product{
+    width: 24%;
+    height: 450px;
+ 
+}
+.production .product img{
+    width: 100%;
+    height: inherit;
+}
+
+.dis-main{
+    width: 80%;
+    display: flex;
+}
+/* .dis */
+@media screen and (max-width:960px){
+    .production .product {
+        width: 50%;
+        height: 350px;
+        margin: 10px 0px;
+    }
+    
+}
+@media screen  and (max-width:620px) {
+    .production .product{
+        width:100%;
+    }
+    /* Spiderman Images START */
+    .fourpartsection .spidermain .spiderleft{
+        width: 100%;
+        margin: 10px 0px;
+      /*  height: 1% auto; */
+       
+    }
+    .fourpartsection .spidermain .spiderright{
+        width: 100%;
+        margin: 10px 0px;   
+        /* height: 400px auto; */
+    }
+       
+    .fourpartsection .spidermain{
+            flex-direction: column;
+    } 
+    /* Spiderman Images END */
+    
+    /* forcesection START */
+    .force{
+        flex-direction: column;
+    }
+    .force .forceleft{
+        width: 100% !important;
+    }
+    
+
+    .disneylast-image .imageleft{
+        width: 100%;
+    }
+    .disneylast-image{
+        flex-direction: column;
+    }
+}
+
+.thirdpart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Featured p{
+    font-size: 30px;
+    padding-left: 2%;
+    padding:1% 1% ;
+    background-color:  #eeeeee;
+}
+
+.fourpartsection{
+    width: 100%;
+    width: 1% auto;
+}
+.fourpartsection .Featured{
+    width: 100%;
+   /*  padding-left: 6%; */
+}
+.fourpartsection .spidermain{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0% auto;
+}
+.spidermain .spiderleft{
+    width: 46%;
+}
+.spidermain .spiderleft img{
+    height: inherit;
+    width: 100%;
+}
+.spidermain .spiderright{
+    width: 46%;
+}
+.spidermain .spiderright video{
+    width: 100%;
+    height: inherit;
+    
+}
+img:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    
+} 
+.spiderright video:hover{
+    transform: all 1s;
+   
+}
+#sp{
+    background-color: #eee;
+}
+.fourpartright p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+.force{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0% auto;
+}
+.force .forceleft{
+    width: 32%;
+}
+.force .forceleft img{
+    width: 100%;
+    height: inherit;
+}
+.forceleft p{
+    text-align: center;
+}
+.forceleft h3{
+    text-align: center;
+}
+
+#fo{
+    background-color: #eee;
+    /* margin: 30 0px; */
+}
+.force_1 p{
+    font-size: 30px;
+    
+    padding-left: 2%;
+}
+
+
+/* DISNEY LAST IMAGE */
+#mo{
+    background-color: #eee;
+}
+.moredisney{
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 2%;
+    padding:1% 1%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.disneylast-image{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* height: 400px; */
+    margin: 0% auto;
+}
+
+.disneylast-image .iamgeleft{
+    width: 40%;
+}
+.disneylast-image .iamgeleft img{
+    width: 100%;
+    height: inherit;
+}
+.iamgeleft p{
+    text-align: center;
+}
+.disneylast-image .iamgeleft h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.disneylast-image .iamgeleft h2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.bottompart{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+   /*  padding: 1%; */
+}
+.bottompart .imageleft{
+    width: 20%;   
+}
+.bottompart .imagelast img{
+    width: 100%;
+    height: inherit;
+}
+.bottompart .left{
+    width: 25% ;
+    font-size: 20px;
+    text-transform: capitalize;
+    align-content: center;
+    /* padding: 2% 2%; */
+}
+.bottompart .left span{
+    font-weight: bolder;
+    font-size: large;
+}
+.bottompart .right {
+    width: 25%;
+    padding:  1%;
+}
+.center{
+    width: 25%;
+}
+
+
+.lastsection{
+    width: 98%;
+    padding: 1%;
+    font-size: 16px;  
+    align-content: center;
+}
+.lastsection .last a{
+    color: black;
+    text-decoration: wavy;
+}
+.lastfuction{
+    align-self: center;
+    padding-left: 35%;
+}
+.lastfuction .info a{
+    color: black;
+    text-decoration: wavy;
+}

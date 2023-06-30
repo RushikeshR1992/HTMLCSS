@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 80vw;
+    height: 60vh;
+    /* background-color: darkorchid; */
+    margin: 0 auto;
+    position: relative;
+}
+main .box1{
+    position:absolute;
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    z-index: 1;
+    border-radius: 120%;
+    top: 35%;
+}
+main .box2{
+    position:absolute;
+    height: 250px;
+    width: 250px;
+    background-color: darkslateblue;
+    z-index: 2;
+}
+main .box3{
+    position:absolute;
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+    z-index: 1;
+}

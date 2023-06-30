@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.r1{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.r1 img{
+
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+.r2{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    
+}
+.r2 span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.a1{
+    clear: both;
+    height: 100%;
+    width:100%;
+}
+.a1 img{
+        width: 100%;
+        height: inherit;
+}
+.a2{
+    padding: 15px;
+    background-color: hsl(31.53deg 39.07% 70.39%)
+}
+.a3{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0%;
+    float: left;
+    margin: 0px;   
+    width: 40%;
+   
+}
+/* .r_1{
+    width: 100%;
+    clear: both;
+}
+.a3 image{
+    height: auto;
+    width: 100%;
+}
+.a4{
+    width: 40%;
+    float: right;
+}
+.a4 image{
+    height: auto;
+    width: 100%;
+} */
+.r_1{
+    width: 100%;
+}
+.r_1 .a3{
+    width: 50%;
+    float: left;
+}
+.r_1 .a3 img{
+    width: 100%;
+    height: auto;
+}
+.r_1 .a4{
+    width: 50%;
+    float: left;
+}
+.r_1 .a4 img{
+    width: 100%;
+    height: auto;
+}
+.a5 img{
+    width: 10%;
+}
+.a5{
+    
+    clear: both;
+    padding: 10px;
+    background-color:hsl(0deg 0% 20%);
+    color: white;
+}
+.z1 img{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 25%;
+    margin: 0px;
+    padding: 2%;
+    float: left;
+}
+.z2{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0px 0px 15px 0px; 
+    width: 25%;
+    float: left;
+/* margin-bottom: 10px; */
+}
+.z2 p{
+    margin: 10px 0px;
+}
+.z2 span{
+    color: white;
+    background-color: hsl(31.53deg 39.07% 70.39%);
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+
+.r_1 span{
+    color: white;
+    background-color: hsl(31.53deg 39.07% 70.39%);
+    bor
+}
