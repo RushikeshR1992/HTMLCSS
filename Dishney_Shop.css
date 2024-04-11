@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main1{
+width: 100%;
+padding-top: 10px;
+display: flex;
+align-items: center;
+background-color: rgb(255 255 255);
+}
+.image1{
+    width: 100px;
+    padding-left: 20px;
+}
+.main1 .image1 img{
+    width: 100%;
+    height: inherit;
+}
+.font1 a{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color: black;
+  /*   background-color: antiquewhite; */
+}
+
+
+.second{
+    width: 100%;
+}
+.spiderman img {
+    width: 100%;
+    height: inherit;
+}
+.second .spiderman{
+    width: 100%;
+    /* padding-bottom: 1%; */
+}
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+}
+.main .left{
+    width: 50%;
+    overflow: hidden;
+    /* height: 500px; */
+}
+.main .left img{
+    width: 100%;
+    height:inherit;
+    transform: scale(1);
+    transition: all 1s linear;
+}
+.main .left img:hover{
+    transform: scale(1.1);
+}
+.main .right {
+    width: 50%;
+    overflow: hidden;
+}
+.right .up img{
+    width: 100%;
+    height: inherit;
+    transform: scale(1);
+    transition: all 1s linear;
+}
+.right .up img:hover{
+    transform: scale(1.1);
+}
+.right .dn{
+    width: 100%;
+    overflow: hidden;
+}
+.right .dn img{
+    width: 100%;
+    height: inherit;
+    transform: scale(1);
+    transition: all 1s linear;
+}
+.right .dn img:hover{
+    transform: scale(1.1);
+}
+
+
+
+ 
+
+
+
+
+
